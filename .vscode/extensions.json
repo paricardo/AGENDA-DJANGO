@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-python.debugpy",
+        "batisteo.vscode-django",
+        "astral-sh.ruff",
+        "eamodio.gitlens"
+    ]
+}

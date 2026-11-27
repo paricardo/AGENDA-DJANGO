@@ -1,0 +1,55 @@
+{
+    // ==================================
+    // APARÊNCIA
+    // ==================================
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Moonlight II",
+    // ==================================
+    // EDITOR
+    // ==================================
+    "editor.fontSize": 14,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.inlayHints.enabled": "on",
+    "editor.minimap.enabled": false,
+    "files.autoSave": "afterDelay",
+    // ==================================
+    // PYTHON
+    // ==================================
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.completeFunctionParens": true,
+    // ==================================
+    // PYTHON - FORMATAÇÃO
+    // ==================================
+    "[python]": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": true
+    },
+    // ==================================
+    // DJANGO TEMPLATES
+    // ==================================
+    "files.associations": {
+        "**/templates/**/*.html": "django-html"
+    },
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    // ==================================
+    // EXCLUSÕES
+    // ==================================
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "**/.mypy_cache": true
+    },
+    "search.exclude": {
+        "**/.venv": true,
+        "**/__pycache__": true
+    }
+}
