@@ -14,7 +14,7 @@
     "editor.formatOnSave": true,
     "editor.inlayHints.enabled": "on",
     "editor.minimap.enabled": false,
-    "files.autoSave": "afterDelay",
+    "files.autoSave": "off",
     // ==================================
     // PYTHON
     // ==================================
